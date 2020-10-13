@@ -3,9 +3,6 @@ package com.example.splashscren;
 import android.app.Activity;
 import android.os.Bundle;
 
-/**
- * Created by AbhiAndroid
- */
 
 public class SecondActivity extends Activity {
 
