@@ -1,10 +1,12 @@
 package com.example.splashscren;
 
-import android.os.Bundle;
 import android.content.Intent;
+import android.os.Bundle;
+
 import androidx.appcompat.app.AppCompatActivity;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements getstarted  {
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -13,5 +15,8 @@ public class MainActivity extends AppCompatActivity {
 
         // close splash activity
         finish();
+
     }
+
+
 }
